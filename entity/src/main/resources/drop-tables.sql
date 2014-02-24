@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS entity_menu_item_function CASCADE;
+DROP TABLE IF EXISTS entity_menu_item CASCADE;
+DROP TABLE IF EXISTS entity_function_role CASCADE;
+DROP TABLE IF EXISTS entity_function CASCADE;
+DROP TABLE IF EXISTS entity_organization_role CASCADE;
+DROP TABLE IF EXISTS entity_user_role CASCADE;
+DROP TABLE IF EXISTS entity_role CASCADE;
+DROP TABLE IF EXISTS entity_phone CASCADE;
+DROP TABLE IF EXISTS entity_address CASCADE;
+DROP TABLE IF EXISTS entity_organization CASCADE;
+DROP TABLE IF EXISTS entity_user CASCADE;
+DROP TABLE IF EXISTS entity_account CASCADE;
+DROP SEQUENCE IF EXISTS hibernate_sequence CASCADE;

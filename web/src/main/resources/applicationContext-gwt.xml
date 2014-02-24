@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/security
+		http://www.springframework.org/schema/security/spring-security-3.0.xsd"
+       default-autowire="byName">
+
+    <import resource="classpath:applicationContext-security.xml"/>
+
+    <context:component-scan base-package="ru.ncideas.magazinof.gwt"/>
+
+    <bean id="authenticationEntryPoint"
+          class="org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint">
+        <property name="loginFormUrl" value="/login.jsp"/>
+    </bean>
+
+    <bean id="accessDeniedHandler"
+          class="org.springframework.security.web.access.AccessDeniedHandlerImpl">
+        <property name="errorPage" value="/accessDenied.jsp"/>
+    </bean>
+
+    <security:http
+            auto-config="true"
+            use-expressions="true"
+            entry-point-ref="authenticationEntryPoint">
+
+        <security:intercept-url pattern="/**/login.jsp" filters="none" requires-channel="any"/>
+        <security:intercept-url pattern="/**/css/**" filters="none" requires-channel="any"/>
+        <security:intercept-url pattern="/**/images/**" filters="none" requires-channel="any"/>
+        <security:intercept-url pattern="/App/**" access="isFullyAuthenticated()" requires-channel="any"/>
+        <security:intercept-url pattern="/**" access="isFullyAuthenticated()" requires-channel="any"/>
+
+        <security:form-login login-page="/login.jsp"
+                             authentication-failure-url="/login.jsp?error=true"
+                             default-target-url="/"
+                             always-use-default-target="true"/>
+
+        <security:access-denied-handler ref="accessDeniedHandler"/>
+
+        <security:logout invalidate-session="true" logout-success-url="/login.jsp"/>
+    </security:http>
+
+   <!--  http://static.springsource.org/spring-security/site/docs/3.0.x/reference/technical-overview.html
+    http://www.javacodegeeks.com/2010/12/securing-gwt-apps-with-spring-security.html !!!! -->
+
+</beans>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <configuration>
+        <stop-on-errors>true</stop-on-errors>
+        <wildcard>true</wildcard>
+    </configuration>
+
+    <mapping>
+        <class-a>ru.ncideas.magazinof.entity.User</class-a>
+        <class-b>ru.ncideas.magazinof.gwt.client.dto.UserDto</class-b>
+    </mapping>
+
+    <mapping>
+        <class-a>ru.ncideas.magazinof.entity.Account</class-a>
+        <class-b>ru.ncideas.magazinof.gwt.client.dto.AccountDto</class-b>
+        <field-exclude>
+            <a>organizations</a>
+            <b>organizations</b>
+        </field-exclude>
+        <field-exclude>
+            <a>superusers</a>
+            <b>superusers</b>
+        </field-exclude>
+        <field-exclude>
+            <a>products</a>
+            <b>products</b>
+        </field-exclude>
+    </mapping>
+
+    <mapping>
+        <class-a>ru.ncideas.magazinof.entity.Organization</class-a>
+        <class-b>ru.ncideas.magazinof.gwt.client.dto.OrganizationDto</class-b>
+        <field-exclude>
+            <a>roleList</a>
+            <b>roleList</b>
+        </field-exclude>
+        <field-exclude>
+            <a>phones</a>
+            <b>phones</b>
+        </field-exclude>
+        <field-exclude>
+            <a>addresses</a>
+            <b>addresses</b>
+        </field-exclude>
+    </mapping>
+
+    <mapping>
+        <class-a>ru.ncideas.magazinof.entity.Role</class-a>
+        <class-b>ru.ncideas.magazinof.gwt.client.dto.RoleDto</class-b>
+        <field-exclude>
+            <a>userList</a>
+            <b>userList</b>
+        </field-exclude>
+    </mapping>
+
+    <mapping>
+        <class-a>ru.ncideas.magazinof.entity.Order</class-a>
+        <class-b>ru.ncideas.magazinof.gwt.client.dto.OrderDto</class-b>
+    </mapping>
+
+    <mapping>
+        <class-a>ru.ncideas.magazinof.entity.Good</class-a>
+        <class-b>ru.ncideas.magazinof.gwt.client.dto.GoodDto</class-b>
+    </mapping>
+
+    <mapping>
+        <class-a>ru.ncideas.magazinof.entity.Customer</class-a>
+        <class-b>ru.ncideas.magazinof.gwt.client.dto.CustomerDto</class-b>
+    </mapping>
+
+    <mapping>
+        <class-a>ru.ncideas.magazinof.entity.OrderStatus</class-a>
+        <class-b>ru.ncideas.magazinof.gwt.client.dto.OrderStatusDto</class-b>
+    </mapping>
+
+    <mapping>
+        <class-a>ru.ncideas.magazinof.entity.Phone</class-a>
+        <class-b>ru.ncideas.magazinof.gwt.client.dto.PhoneDto</class-b>
+    </mapping>
+
+    <mapping>
+        <class-a>ru.ncideas.magazinof.entity.Address</class-a>
+        <class-b>ru.ncideas.magazinof.gwt.client.dto.AddressDto</class-b>
+    </mapping>
+
+    <mapping>
+        <class-a>ru.ncideas.magazinof.entity.DeliveryType</class-a>
+        <class-b>ru.ncideas.magazinof.gwt.client.dto.DeliveryTypeDto</class-b>
+    </mapping>
+
+</mappings>
