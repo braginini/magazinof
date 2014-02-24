@@ -1341,4 +1341,21 @@
         <addAutoIncrement tableName="orders" columnName="id"/>
     </changeSet>
 
+	<changeSet id="117" author="mbragin">
+		<sql>ALTER SEQUENCE goods_id_seq START 20</sql>
+		<sql>ALTER SEQUENCE goods_id_seq RESTART</sql>
+		<sql>ALTER SEQUENCE accounts_seq START 20</sql>
+		<sql>ALTER SEQUENCE accounts_seq RESTART</sql>
+		<sql>ALTER SEQUENCE orders_id_seq START 20</sql>
+		<sql>ALTER SEQUENCE orders_id_seq RESTART</sql>
+		<sql>ALTER SEQUENCE organizations_seq START 20</sql>
+		<sql>ALTER SEQUENCE organizations_seq RESTART</sql>
+		<sql>ALTER SEQUENCE users_seq START 20</sql>
+		<sql>ALTER SEQUENCE users_seq RESTART</sql>
+	</changeSet>
+	<changeSet id="118" author="mbragin">
+		<sql>ALTER SEQUENCE orders_seq START 20</sql>
+		<sql>ALTER SEQUENCE orders_seq RESTART</sql>
+	</changeSet>
+
 </databaseChangeLog>
