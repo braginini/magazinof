@@ -584,7 +584,7 @@
     </changeSet>
 
 
-    <changeSet id="27" author="mbragin">
+    <changeSet id="27" author="mbragin1">
         <createSequence sequenceName="accounts_seq"
                         minValue="1"
                         incrementBy="1"/>

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8309ec84-7bee-4793-9bb7-ce060c000270" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/src/main/resources/META-INF/db.changelog.xml" afterPath="$PROJECT_DIR$/entity/src/main/resources/META-INF/db.changelog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="magazinof.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,15 +79,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="19" selection-start="701" selection-end="701" vertical-scroll-proportion="41.192307" vertical-offset="1428" max-vertical-offset="2159">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MenuItemDaoSpringJdbcImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entity/src/main/java/ru/ncideas/magazinof/dao/impl/springjdbc/MenuItemDaoSpringJdbcImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,19 +118,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity/pom.xml">
+      <file leaf-file-name="db.changelog.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entity/src/main/resources/META-INF/db.changelog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="48" selection-start="1904" selection-end="1904" vertical-scroll-proportion="-7.576923" vertical-offset="670" max-vertical-offset="1700">
+            <state line="586" column="39" selection-start="27089" selection-end="27089" vertical-scroll-proportion="-6.3461537" vertical-offset="9632" max-vertical-offset="22933">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.changelog.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/entity/src/main/resources/META-INF/db.changelog.xml">
+      <file leaf-file-name="WindowsSelectorImpl.class" pinned="false" current="true" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="30" selection-start="2987" selection-end="2987" vertical-scroll-proportion="1.464752" vertical-offset="0" max-vertical-offset="22933">
+            <state line="133" column="27" selection-start="4986" selection-end="4986" vertical-scroll-proportion="1.3243244" vertical-offset="1656" max-vertical-offset="2448">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entity/src/main/resources/META-INF/database.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="49" selection-start="40" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
               <folding />
             </state>
           </provider>
@@ -196,6 +197,11 @@
         <option name="importAutomatically" value="true" />
         <option name="keepSourceFolders" value="false" />
       </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="liquibase schema update" />
+      </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -724,16 +730,16 @@
       <created>1339517204655</created>
       <updated>1339517204655</updated>
       <workItem from="1393251591922" duration="7000" />
-      <workItem from="1393251606659" duration="792000" />
+      <workItem from="1393251606659" duration="1561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="799000" />
+    <option name="totallyTimeSpent" value="1568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -748,14 +754,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37156704" sideWeight="0.60102737" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33218786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23990306" sideWeight="0.60102737" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5223368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39862543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39862543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -1086,9 +1092,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/entity/src/main/resources/META-INF/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="49" selection-start="40" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/entity/src/main/resources/META-INF/db.changelog.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="30" selection-start="2987" selection-end="2987" vertical-scroll-proportion="1.464752" vertical-offset="0" max-vertical-offset="22933">
+        <state line="586" column="39" selection-start="27089" selection-end="27089" vertical-scroll-proportion="-6.3461537" vertical-offset="9632" max-vertical-offset="22933">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="27" selection-start="4986" selection-end="4986" vertical-scroll-proportion="1.3243244" vertical-offset="1656" max-vertical-offset="2448">
           <folding />
         </state>
       </provider>
